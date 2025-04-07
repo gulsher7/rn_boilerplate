@@ -7,7 +7,7 @@
 
 ## Project Overview
 
-NativeCraft is a React Native mobile application built with TypeScript and Expo. It features robust authentication, RTL/LTR language support, dark/light theme capabilities, and a modern UI experience. The app follows a structured, modular architecture with a focus on reusability, scalability, and maintainability.
+A modern, production-ready React Native boilerplate with TypeScript support, focusing on best practices, scalability, and developer experience. This boilerplate includes authentication flows, theming support, RTL handling, and a robust project structure.
 
 [Check out the app demo video](https://github.com/user-attachments/assets/cb478a0a-a574-4f5e-987a-74bcb6f0e18a)
 
