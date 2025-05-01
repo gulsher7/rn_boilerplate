@@ -38,12 +38,9 @@ const useRTLStyles = (isRTL: boolean, theme?: ThemeType) => {
             marginTop: moderateScale(32),
         },
         otpInput: {
-            width: '100%',
-            height: moderateScale(50),
+            alignItems: 'center',
         },
         otpField: {
-            width: moderateScale(49),
-            height: moderateScale(50),
             borderWidth: 1,
             borderColor: colors.inputBorder,
             borderRadius: moderateScale(10),
@@ -51,6 +48,7 @@ const useRTLStyles = (isRTL: boolean, theme?: ThemeType) => {
             fontSize: moderateScale(24),
             fontFamily: fontFamily.medium,
             backgroundColor: colors.inputBackground,
+            width: moderateScale(50),
         },
         otpFieldFocused: {
             borderColor: commonColors.primary,
@@ -68,7 +66,7 @@ const useRTLStyles = (isRTL: boolean, theme?: ThemeType) => {
             fontFamily: fontFamily.medium,
             color: colors.textSecondary,
             textAlign: 'center',
-            letterSpacing: moderateScale(-0.12),
+            marginVertical: moderateScale(12),
         },
     }), [isRTL, theme, colors]); // Dependencies array includes all variables used in the styles
 };

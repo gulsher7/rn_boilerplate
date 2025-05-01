@@ -13,7 +13,7 @@ A modern, production-ready React Native boilerplate with TypeScript support, foc
 
 ## Features
 
-- 🔐 **Authentication Flow**: Complete login and OTP verification using @twotalltotems/react-native-otp-input
+- 🔐 **Authentication Flow**: Complete login and OTP verification using react-native-otp-entry
 - 🌓 **Theme Support**: Dynamic light/dark theme switching with context
 - 🌐 **Multi-language Support**: RTL/LTR with i18next integration
 - 📱 **Responsive Design**: Adapts to different screen sizes with proper scaling

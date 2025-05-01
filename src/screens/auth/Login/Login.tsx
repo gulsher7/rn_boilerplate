@@ -1,7 +1,7 @@
 //import liraries
 import { useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import React, { useState } from 'react';
+import React, { useActionState, useState } from 'react';
 import { View } from 'react-native';
 
 import ButtonComp from '@/components/ButtonComp';
@@ -22,6 +22,10 @@ const Login = () => {
     const styles = useRTLStyles(isRTL, theme);
     const [email, setEmail] = useState('');
     const navigation = useNavigation<NativeStackNavigationProp<AuthStackParamList>>();
+
+
+
+
 
     const handleNext = () => {
         navigation.navigate('OTPVerification', { phoneNumber: '1234567890' });
