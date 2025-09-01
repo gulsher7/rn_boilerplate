@@ -1,9 +1,9 @@
 # React Native Boilerplate
 
-![React Native](https://img.shields.io/badge/React_Native-0.78.2-blue)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.0.4-blue)
+![React Native](https://img.shields.io/badge/React_Native-0.81.1-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.8.3-blue)
 ![Redux](https://img.shields.io/badge/Redux-5.0.1-purple)
-![React Navigation](https://img.shields.io/badge/React_Navigation-7.0-orange)
+![React Navigation](https://img.shields.io/badge/React_Navigation-7.1-orange)
 
 ## Project Overview
 
@@ -59,29 +59,29 @@ A modern, production-ready React Native boilerplate with TypeScript support, foc
 ## Technology Stack
 
 ### Core
-- **React Native**: v0.78.2
-- **TypeScript**: v5.0.4
-- **React**: v19.0.0
+- **React Native**: v0.81.1
+- **TypeScript**: v5.8.3
+- **React**: v19.1.0
 
 ### State Management & Data Flow
 - **Redux**: v5.0.1
 - **React Redux**: v9.2.0
-- **Redux Toolkit**: v2.6.1
+- **Redux Toolkit**: v2.8.2
 
 ### Navigation
-- **@react-navigation/native**: v7.1.5
-- **@react-navigation/native-stack**: v7.3.9
-- **@react-navigation/bottom-tabs**: v7.3.9
+- **@react-navigation/native**: v7.1.17
+- **@react-navigation/native-stack**: v7.3.26
+- **@react-navigation/bottom-tabs**: v7.4.7
 
 ### UI & Animations
-- **react-native-reanimated**: v3.17.2
-- **react-native-svg**: v15.11.2
+- **react-native-reanimated**: v4.1.0
+- **react-native-svg**: v15.12.1
 - **react-native-modal**: v14.0.0-rc.1
-- **react-native-bootsplash**: v6.3.4
+- **react-native-bootsplash**: v6.3.10
 
 ### Internationalization
-- **i18next**: v24.2.3
-- **react-i18next**: v15.4.1
+- **i18next**: v25.4.2
+- **react-i18next**: v15.7.3
 - **intl-pluralrules**: v2.0.1
 
 ### Security & Storage
@@ -96,7 +96,7 @@ A modern, production-ready React Native boilerplate with TypeScript support, foc
 ## Setup and Installation
 
 ### Prerequisites
-- Node.js >= 18
+- Node.js >= 20
 - Ruby (for iOS development)
 - CocoaPods (for iOS development)
 - Android Studio (for Android development)
