@@ -4,7 +4,7 @@ import { moderateScale } from '@/styles/scaling';
 import { StyleSheet } from 'react-native';
 import { useMemo } from 'react';
 
-const useRTLStyles = (isRTL: boolean, theme?: ThemeType) => {
+const useRTLStyles = (isRTL: boolean, theme: ThemeType) => {
     const colors = Colors[theme];
 
     return useMemo(() => StyleSheet.create({
